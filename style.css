@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(247, 180, 224);
+    }
+    
+ .menu {
+    padding-top: 350px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+.btn {
+    width: 400px;
+    height: 30px;
+}
+
+.text {
+    font-size: 60px;
+}
+
+.input {
+    width: 393px;
+    height: 20px;
+}

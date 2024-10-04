@@ -26,3 +26,42 @@ body {
     height: 20px;
 
 }
+
+
+.window {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;     
+    position: absolute;
+    background-color: limegreen;
+    width: 100%;
+    height: 100%;
+    padding: 100px 50px;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    }
+    
+    .cards {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    /* left: 100px; */
+    /* top: 100px; */
+}
+
+.card__text {
+    text-align: center;
+    padding-top: 90px;   
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    max-width: 2000px;
+}
+
+.none {
+    display: none;
+}

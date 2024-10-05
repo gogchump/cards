@@ -7,13 +7,12 @@ document.addEventListener("DOMContentLoaded", function(){
     btn.addEventListener("click", function(){
         console.log(123)
         page.classList.remove("none")
-        list.push(input.value)
-        addElement(input.value, list)
+        let card = document.createElement("div")
+        document.body.appendChild(card)
     })
-
+    
     function addElement() {
-        let card = document.addElement("div")
-
+        // addElement()
         
     }
 })

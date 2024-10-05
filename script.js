@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
 let input = document.querySelector(".input")
-let list;
+
 input.addEventListener("blur", function() {
     let cards = new Array()
     for (let i = 1; i <= input.value/2; i++)

@@ -1,0 +1,25 @@
+.none{
+    
+    display: none;
+    transition: all 1s;
+ 
+    
+}
+.card{
+    margin-top: 30px ;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+

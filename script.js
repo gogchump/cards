@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
     let input = document.querySelector(".input")
     
-    
     input.addEventListener("blur", function() {
         let cards = new Array()
         for (let i = 1; i <= input.value/2; i++)
@@ -39,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function(){
                 text.classList.remove("none"); 
                 e.disabled = true;
                 id.push(text)
-    
                 
                 if(arr.length == 2) {
                     console.log(arr)
@@ -56,7 +54,6 @@ document.addEventListener("DOMContentLoaded", function(){
                             {
                                 console.log("victory")
                             }  
-                    
                     }
                     else {
                         setTimeout(() => {
@@ -68,33 +65,18 @@ document.addEventListener("DOMContentLoaded", function(){
                             id.pop(0);
                             id.pop(0);
                         }, 500);
-                         }
-                    
-                        
+                        }   
                 }
-                
             }
         )
-            
-            
+
             card.appendChild(text);
             main.appendChild(card);
-    
         }
-        
-        
-        
-        
-        
     } )
     
     function shuffle(array) {
         array.sort(() => Math.random() - 0.5);
       }
-    
-    
-    
-    
-    
     })
     
